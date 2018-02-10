@@ -7,6 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fexceptions -Wall -fpermissi
 
 set(HOME /home/pi)
 set(ProjectsRoot ${HOME}/projects)
+
 set(CutestRoot ${ProjectsRoot}/cutest)
 set(CutestSource ${CutestRoot}/lib)
 set(CutestBinary ${CutestRoot}/link)
