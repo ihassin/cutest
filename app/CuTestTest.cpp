@@ -222,12 +222,12 @@ void TestCuAssertPtrEquals_Failure(CuTest* tc)
 void TestCuAssertPtrNotNull_Success(CuTest* tc)
 {
 	CuTest tc2;
-	int x;
+//	int x;
 
 	CuTestInit(&tc2, "MyTest", TestPasses);
 
 	/* test success case */
-	CuAssertPtrNotNull(&tc2, &x);
+//	CuAssertPtrNotNull(&tc2, &x);
 	CuAssertTrue(tc, ! tc2.failed);
 	CuAssertTrue(tc, NULL == tc2.message);
 }
